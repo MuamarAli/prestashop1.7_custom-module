@@ -1,0 +1,5 @@
+{% block banner %}
+  {% if banner is defined and banner is not null %}
+      <img src="{{ coverImage.path }}" class="figure-img img-fluid img-thumbnail">
+  {% endif %}
+{% endblock %}
